@@ -1,0 +1,1 @@
+$(".portfolio-menu ul li").click(function(){$(".portfolio-menu ul li").removeClass("active"),$(this).addClass("active");var t=$(this).attr("data-filter");return $(".portfolio-item").isotope({filter:t}),!1}),$(document).ready(function(){$(".popup-btn").magnificPopup({type:"image",gallery:{enabled:!0}})});
